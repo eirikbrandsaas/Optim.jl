@@ -74,6 +74,6 @@ res = optimize(f, g!,
                store_trace = true,
                show_trace = false)
 ```
-Notice the need to specify the method (`method = GradientDescent()') using a keyword if this syntax is used.
+Notice the need to specify the method (`method = GradientDescent()`) using a keyword if this syntax is used.
 This approach might be deprecated in the future, and as a result we recommend writing code
 that has to be maintained using the `Optim.Options` approach.
