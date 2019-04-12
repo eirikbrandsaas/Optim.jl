@@ -76,4 +76,4 @@ res = optimize(f, g!,
 ```
 Notice the need to specify the method using a keyword if this syntax is used.
 This approach might be deprecated in the future, and as a result we recommend writing code
-that has to maintained using the `Optim.Options` approach.
+that has to be maintained using the `Optim.Options` approach.
